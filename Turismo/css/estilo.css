@@ -1,0 +1,46 @@
+body{
+  background-image: url(../img/venecia2.jpg);
+  background-color: rgba(0,0,0,0.7);
+  background-position: top;
+
+ background-attachment: fixed;
+
+
+}
+.contenido{
+  margin-top:10px;
+
+
+}
+.slogan{
+  margin-top:0.8rem;
+
+}
+.letra-slogan{
+  font-family: 'Satisfy', cursive;
+  font-size: 48px;
+    color:#F5B20D  ;
+}
+.logo{
+  border-radius: 10px;
+
+}
+.logos{
+  width:70px;
+  padding-bottom:30px;
+  margin-left:20px;
+}
+.imagen-contenido{
+  width:100%
+}
+.superior-derecho{
+  height:500px!important;
+  width:100%
+}
+.articulo-img{
+  width:350px;
+  float:left
+}
+.autor{
+  width:400px;
+}

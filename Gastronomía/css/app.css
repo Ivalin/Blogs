@@ -1,0 +1,53 @@
+body{
+  background:url(../img/background.jpg);
+}
+.contenido{
+  background-color: rgba(130, 125, 126, 0.9);
+
+}
+.titulo{
+  font-family: 'Bad Script', cursive;
+  color:orange;
+  font-size:32px;
+}
+.slogan{
+color:#C1E822;
+}
+.borde{
+  border-right: 1px solid white;
+}
+
+.columna-izquierda{
+  opacity:0.9;
+}
+.columna-derecha{
+  background-color: #D53EDF;
+}
+.img-circle{
+width:50px;
+ border-radius: 50%;
+}
+
+
+.fecha{
+  color:white;
+}
+.descripcion{
+  margin-top:10px;
+}
+.plato{
+  color:White;
+}
+@media (min-width:1200px){
+  .panel-derecho{
+    overflow-y: scroll;
+    height:840px;
+
+}
+@media (min-width:480px) and (max-width:780px){
+  body{
+   background:url(../img/background.jpg);
+   background-size: 50%;
+
+  }
+}
